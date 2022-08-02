@@ -1,0 +1,14 @@
+package Spring_Builder;
+
+public class TesteStrings {
+    public static void main(String[] args) {
+        String s = "Olá";
+        s = s + "Pessoal!";
+
+        StringBuilder sb = new StringBuilder("Olá");
+        sb.append("Pessoal!");
+
+        String resultado = sb.toString();
+        System.out.println("Com StringBuilder: " + resultado);
+    }
+}
